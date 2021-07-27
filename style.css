@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Roboto:wght@100&display=swap');
 
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	display: block;
+	list-style: none;
+}
+
+
 body {
 	scroll-padding-top: 80px;
 	font-family: 'Manrope', sans-serif;
@@ -8,6 +21,8 @@ body {
 .cursor-pointer {
 		cursor: pointer;
 }
+
+/*topbar*/
 
 nav {
 	position: fixed;
@@ -21,112 +36,43 @@ nav {
 	justify-content: flex-end;
 }
 
-nav > ul {
-	font-size: 0.9rem;
-}
-nav > ul > a {
-	text-decoration: none;	
-}
-
-#login-btn {
-	background-color: rgb(6, 95, 212);
-	color:  white;
-	width: 8rem;
-	height: 1.8rem;
-	border: 1px solid rgb(6, 95, 212);
-	border-radius: 3px;
-	font-size: 14px;
-	margin-right: 1rem;
-}
-
-#login-btn:hover {
-	background-color: rgb(6, 95, 300);
-	border: 1px solid rgb(6, 95, 212);
-}
-
-/*top of the page*/ 
+/* Main */
 
 main {
 	margin: auto;
 	width: 60%;
 	text-align: center;
-	margin-top: 10%;
+	margin-top: 20%;
 	display: flex;
 	flex-direction: column;
 }
 
-img {
-	width: 300px;
-	height: 100px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 0.6rem;
-}
 
-#search-area {
-	width: 70%;
-	margin: auto;
-	height: 2.7rem;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	border: solid #ddd 1px;
-	border-radius: 20px;
-	margin-bottom: 1rem;
-}
+/* Footer */
 
-#search-area:hover {
-	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
-.material-icons-outlined {
-	padding-right: 0.5rem;
-	padding-left: 0.5rem;
-	color: gray;
-	background-color: none;
-}
-
-.cursor-pointer {
-	cursor: pointer;
-}
-
-#searchbar_input_area {
-	width: 100%;
-	border: none;
-	outline: none;
-	font-size: 16px;
-}
-
-
-.search-button {
-	background-color: #f0f0f0;
-	border: solid #ddd 1px;
-	border-radius: 2px;
-	width: 8rem;
-	height: 1.8rem;
-	font-size: 14px;
-}
-
-.search-button:hover {
-	background-color: #ddd;
-}
-
-/*main part of the page*/
 footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	background-color: #e0e0e0;
 	width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	
 }
 
 .footer {
+	display: flex;
+	flex-direction: row-reverse;
 	font-size: 0.9rem;
 	margin: 0.5rem;
+}
+
+#left-side-footer {
+	display: none;
+}
+
+#right-side-footer > span {
+	margin: auto;
+	font-size: 1.5rem;
+
 }
 
 .footer > span {
@@ -135,4 +81,3 @@ footer {
 	cursor: pointer;
 }
 
-/*footer*/
