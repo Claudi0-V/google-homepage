@@ -97,9 +97,9 @@ img {
 }
 
 #search-area {
-	width: 92%;
+	width: 96%;
 	margin: auto;
-	height: 3.3rem;
+	height: 3.5rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -131,14 +131,16 @@ img {
 	background-color: #f0f0f0;
 	border: solid #ddd 1px;
 	border-radius: 2px;
-	width: 8rem;
-	height: 1.8rem;
-	font-size: 14px;
+	width: 12rem;
+	height: 4rem;
+	font-size: 1.2rem;
 }
 
 .search-button:hover {
 	background-color: #ddd;
 }
+
+
 
 
 
