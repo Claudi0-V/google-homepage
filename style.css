@@ -152,7 +152,7 @@ footer {
 	background-color: #e0e0e0;
 	width: 100%;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -172,3 +172,11 @@ footer {
 	cursor: pointer;
 }
 
+
+@media(max-width: 661px) {
+
+	
+	footer {
+		flex-direction: column;
+	}
+}
