@@ -5,7 +5,7 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 62.5%;
+	font-size: 14px;
 	font: inherit;
 	vertical-align: baseline;
 	box-sizing: border-box;
@@ -15,7 +15,7 @@
 
 
 body {
-	scroll-padding-top: 2rem;
+	scroll-padding-top: 28px;
 	font-family: 'Manrope', sans-serif;
 }
 
@@ -30,38 +30,38 @@ nav {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 2.3rem;
+	height: 40px;
 	display: flex;
 	flex-direction: row;
 	list-style: none;
-	justify-content: space-around;
+	justify-content: flex-end;
 	align-items: center;
 	background-color: white;
 }
 
 .nav-links {
-	width: 30%;
+	width: 10%;
 	display: flex;
-	margin-left: 0.5rem;
+	margin-left: 7px;
 	flex-direction: row;
-	justify-content: space-between;
-	font-size: 1rem;
+	justify-content: space-around;
+	font-size: 14px;
 }
 
 .icon-apps {
-	font-size: 1.5rem !important;
+	font-size: 21px !important;
 
 }
 
 #login-btn {
 	background-color: rgb(6, 95, 212);
 	color:  white;
-	width: 5rem;
-	height: 2rem;
+	width: 80px;
+	height: 28px;
 	border: 1px solid rgb(6, 95, 212);
 	border-radius: 3px;
-	font-size: 0.8rem;
-	margin-right: 1rem;
+	font-size: 10px;
+	margin-right: 14px;
 }
 
 #login-btn:hover {
@@ -83,23 +83,22 @@ main {
 
 
 img {
-	width: 200px;
-	height: 65px;
-	margin-left: auto;
-	margin-right: auto;
+	max-width: 100%;
+	height: auto;
+	margin: auto;
 	margin-bottom: 0.6rem;
 }
 
 #search-area {
-	width: 100%;
+	width: 70%;
 	margin: auto;
-	height: 2rem;
+	height: 28px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	border: solid #ddd 1px;
 	border-radius: 20px;
-	margin-bottom: 1rem;
+	margin-bottom: 14px;
 }
 
 #search-area:hover {
@@ -107,8 +106,8 @@ img {
 }
 
 .material-icons-outlined {
-	padding-right: 0.5rem;
-	padding-left: 0.5rem;
+	padding-right: 7px;
+	padding-left: 7px;
 	color: gray;
 	background-color: none;
 }
@@ -122,21 +121,22 @@ img {
 
 .search-button-div {
 	margin: auto;
-	width: 80%;
+	width: 35%;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
+
 }
 
 
 .search-button {
+	display:inline-block;
 	background-color: #f0f0f0;
 	border: solid #ddd 1px;
 	border-radius: 3px;
-	width: 6rem;
-	height: 2.5rem;
 	font-size: 0.8rem;
+	padding: 6px;
 }
 
 .search-button:hover {
@@ -156,18 +156,15 @@ footer {
 
 .footer {
 	display: flex;
-	flex-direction: row-reverse;
-	font-size: 0.9rem;
-	margin: 0.5rem;
+	flex-direction: row;
+	font-size: 10px;
+	margin: 7px;
 }
 
-#left-side-footer {
-	display: none;
-}
 
-#right-side-footer > span {
+#right-side-footer > span, #left-side-footer > span {
 	margin: auto;
-	font-size: 1rem;
+	font-size: 14px;
 
 }
 
