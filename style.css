@@ -103,7 +103,7 @@ img {
 }
 
 #search-area:hover {
-	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	box-shadow: rgba(149, 157, 165, 0.4) 1px 1px 9px 4px;
 }
 
 .material-icons-outlined {
@@ -113,7 +113,7 @@ img {
 	background-color: none;
 }
 
-#searchbar_input_area {
+#searchbar-input-area {
 	width: 100%;
 	border: none;
 	outline: none;
