@@ -76,7 +76,8 @@ nav {
 
 main {
 	margin: 17% auto;
-	max-width: 100%;
+	max-width: 600px;
+	width: auto;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -91,15 +92,16 @@ img {
 }
 
 #search-area {
-	max-width: 90%;
-	margin: auto;
-	height: 28px;
+	height: 42px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	text-align: center;
 	border: solid #ddd 1px;
 	border-radius: 20px;
 	margin-bottom: 14px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 #search-area:hover {
@@ -121,20 +123,17 @@ img {
 }
 
 .search-button-div {
-	margin: auto;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
+	display: block;
+	text-align: center;
+	font-size: 20px;
 }
 
 
 .search-button {
-	display:inline-block;
+	display: inline-block;
 	background-color: #f0f0f0;
-	border: solid #ddd 1px;
 	border-radius: 3px;
-	font-size: 0.8rem;
+	font-size: 15px;
 	padding: 6px;
 	margin: 4px;
 }
